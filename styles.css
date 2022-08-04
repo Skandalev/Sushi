@@ -1,19 +1,21 @@
 .father{
-  width: 100vd;  
+  width: 105vd;  
   background-image: url("https://img.freepik.com/free-photo/side-view-sushi-set-with-soy-sauce-chopsticks-wooden-serving-board_176474-3234.jpg?w=2000");
-  height: 100vh;
+  height: 105vh;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 2px;
+  text-align: center 
 }
 .son{
     
     background-color: rgb(0, 0, 0,0.7);
     width:  25%;
-    height: 100%;
-    margin-top: 1vh;
+    height: 94.5%;
+    margin-top: -15vh;
+
     
     
 
@@ -21,10 +23,43 @@
 .aaa{
     text-align: center;
     color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
 }
 button{
-    margin-left: 50%;
+    font-size: 90%;
+    margin-left: 40%;
+    
 
+}
+.ccc{
+    margin-left: 18em;
+
+    width: 60em;
+    color: aqua;
+    text-align: center 
+    font-family:'Times New Roman', Times, serif;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-content:space-between;
+    justify-content:space-around;
+    
+    
+
+
+}
+body{
+    background-color: aquamarine;
+}
+.folders
+{
+ font-size: 480%;  
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ 
+ 
+}
+.qwe{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
 }
