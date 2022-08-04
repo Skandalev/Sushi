@@ -1,0 +1,30 @@
+.father{
+  width: 100vd;  
+  background-image: url("https://img.freepik.com/free-photo/side-view-sushi-set-with-soy-sauce-chopsticks-wooden-serving-board_176474-3234.jpg?w=2000");
+  height: 100vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2px;
+}
+.son{
+    
+    background-color: rgb(0, 0, 0,0.7);
+    width:  25%;
+    height: 100%;
+    margin-top: 1vh;
+    
+    
+
+}
+.aaa{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+}
+button{
+    margin-left: 50%;
+
+}
