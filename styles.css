@@ -13,7 +13,7 @@
     
     background-color: rgb(0, 0, 0,0.7);
     width:  31vh;
-    height: 52vw;
+    height: 100vh;
     margin: top -24vh !important; ;
 
     
@@ -34,8 +34,9 @@ button{
 }
 .ccc{
     margin-left: 18em;
+    width: 58vw;
 
-    
+    text-decoration: none;
     color: aqua;
     text-align: center 
     font-family:'Times New Roman', Times, serif;
@@ -44,6 +45,7 @@ button{
     flex-wrap:wrap;
     align-content:space-between;
     justify-content:space-around;
+    
     
     
 
@@ -55,18 +57,21 @@ body{
 }
 .folders
 {
- font-size: 400%;  
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+ font-size: 200%;  
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
  
  
 }
 .qwe{
+    
     font-family: Arial, Helvetica, sans-serif;
     height: 95vh;
     width: 100vw;
     margin-top: -91vh;
     font-size: 107%;
     text-align: center;
+    text-decoration: none;
    
 }
 .Men{
@@ -95,6 +100,7 @@ a:visited{
     color: brown;
 }
 .vbn{
+    position: absolute;
 
     display: flex;
     flex-wrap: wrap;
@@ -103,9 +109,10 @@ a:visited{
     align-items: flex-start;
     align-content: flex-start;
     text-align: left ;
-    margin-top: -34v
+    margin-top: -34vh;
     
     font-size: 80%;
+    
     
       
 }
@@ -120,3 +127,12 @@ a:visited{
     
     text-align: center 
   }
+.ccc{
+    position: absolute;
+    margin-left: 16vw;
+}
+.drinks{
+    width: 8vw;
+    height: 12vh;
+    margin-top: -22vh;
+}

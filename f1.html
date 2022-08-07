@@ -10,12 +10,13 @@
     <title>food</title>
   </head>
   <body>
-    <div class="father">
+    
+    <div class="father" style="z-index: index 5; position:relative ; ">
       <div class="ccc">
-        <a href="#az" class="folders">Home</a>
-        <a href="#az" class="folders">Menu</a>
-        <a href="#as" class="folders">FAQ</a>
-        <a href="#aw" class="folders">Contact</a>
+       <span> <a href="#az" class="folders">Home</a></span>
+      <span> <a href="#az" class="folders">Menu</a></span> 
+       <span> <a href="#as" class="folders">FAQ</a></span>
+       <span><a href="#aw" class="folders">Contact</a></span> 
       </div>
       <div class="son">
         <h1 class="aaa" style="font: size 200%; ;" >welcome to our site </h1>
@@ -87,7 +88,18 @@ fanta...8$
   <p>masago Sushi. ...8$</p>
   <p>gluten free soy sause. ...2$</p>
 
+ </div >
+
+<div style="    display: flex;
+align-content: space-between;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-evenly; width: 70vw; position: absolute; margin-top: 14vh; " >
+<span><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShENFSrUx9Lkyi4hLrq1Kg5at6OsSTkJU0XQ&usqp=CAU" alt="" class="drinks" ></span>
+<span><img src="data:image/jpeg;base64,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" alt="" class="drinks" ></span>
+<span><img src="https://www.coca-cola.ru/content/dam/one/ru/ru/products/fanta-orange-500ml.png" alt=""  class="drinks"></span>
  </div>
+
 </pre>
 
     
@@ -164,7 +176,11 @@ Generated 5 paragraphs, 422 words, 2903 bytes of Lorem Ipsum
       <i class="fa-solid fa-bolt"></i>
       <input type="checkbox" id="veh" name="veh" value="Agree">
         <label for="veh"> AGRRE TO THE TERMS</label><br>
+        <button type="button" class="btn btn-warning" style="text-align:center ;" >Send</button>
+
+        
       
     </div>
   </body>
 </html>
+
