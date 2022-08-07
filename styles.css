@@ -1,20 +1,20 @@
 .father{
-  width: 105vd;  
+  width: 100vw;  
   background-image: url("https://img.freepik.com/free-photo/side-view-sushi-set-with-soy-sauce-chopsticks-wooden-serving-board_176474-3234.jpg?w=2000");
-  height: 105vh;
+  height: 100vh;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 2px;
+  
   text-align: center 
 }
 .son{
     
     background-color: rgb(0, 0, 0,0.7);
-    width:  25%;
-    height: 94.5%;
-    margin-top: -13vh;
+    width:  31vh;
+    height: 52vw;
+    margin: top -24vh !important; ;
 
     
     
@@ -51,6 +51,7 @@ button{
 }
 body{
     background-color: aquamarine;
+    margin:0;
 }
 .folders
 {
@@ -61,16 +62,17 @@ body{
 }
 .qwe{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 200%;
-    width: 15vd;
-    margin-top: -17em;
+    height: 95vh;
+    width: 100vw;
+    margin-top: -91vh;
+    font-size: 107%;
     text-align: center;
    
 }
 .Men{
     width: 10%;
   
-    height: 10vh;
+    height: 8vh;
 }
 .menu{
     display: flex;
@@ -101,8 +103,20 @@ a:visited{
     align-items: flex-start;
     align-content: flex-start;
     text-align: left ;
-    margin-top: -41% ;
+    margin-top: -34v
+    
     font-size: 80%;
     
       
 }
+.father2{
+    width: 100vw;  
+    background-image: url("https://images.unsplash.com/photo-1583623025817-d180a2221d0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHN1c2hpfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    height: 100vh;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center 
+  }
