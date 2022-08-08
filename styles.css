@@ -57,11 +57,16 @@ button:hover{
 body{
     background-color: aquamarine;
     margin:0;
+    background-image: url("https://img.lovepik.com/photo/50119/0533.jpg_wh860.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .folders
 {
  font-size: 200%;  
  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-decoration: none;
  
  
  
@@ -103,6 +108,7 @@ body{
 .ert{
     text-align: center;
     font-size:70%;
+    color: darkorange;
 }
 a:active{
     color: brown;
@@ -148,10 +154,10 @@ a:visited{
     margin-top: -22vh;
 }
 @media only screen and (max-width: 768px) and (max-width: 400px){
-    #place{
-        
-        
-
+    .Men {
+        width: 27%;
+        height: 8vh;
+        margin-right: -32px;
 
     }
     .vbn{
@@ -166,6 +172,35 @@ a:visited{
       .ert{
         font-size: small;
         background-size: contain;
+      }
+      #fff{
+
+        font-size: 3vw;
+      }
+      .father{
+
+        height: 50vh;
+      }
+      .son{
+        height: 50vh;
+        font-size: 67%;
+      }
+      .btn{
+
+        font-size: 33%;
+
+
+      }
+      body{
+
+        background-image: url("https://img.freepik.com/premium-photo/flying-pieces-sushi-with-wooden-chopsticks-sauce_120962-1511.jpg?w=2000");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+      }
+      .drinks{
+
+        width: 23vw;
       }
 
    
