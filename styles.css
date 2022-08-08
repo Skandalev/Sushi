@@ -12,7 +12,7 @@
 .son{
     
     background-color: rgb(0, 0, 0,0.7);
-    width:  31vh;
+    width:  25vw;
     height: 100vh;
     margin: top -24vh !important; ;
 
@@ -32,8 +32,11 @@ button{
     
 
 }
+button:hover{
+    background-color: rgb(38, 234, 68) !important;
+}
 .ccc{
-    margin-left: 18em;
+    margin-left: 30em;
     width: 58vw;
 
     text-decoration: none;
@@ -78,6 +81,13 @@ body{
     width: 10%;
   
     height: 8vh;
+
+}
+.Men:hover{
+    width: 30%;
+    height:20vh ;
+
+    
 }
 .menu{
     display: flex;
@@ -87,11 +97,12 @@ body{
     flex-wrap: nowrap;
     align-items: flex-end;
     margin-right: 12%;
+    margin-top: -13vh;
     
 }
 .ert{
     text-align: center;
-    font-size: xx-large;
+    font-size:70%;
 }
 a:active{
     color: brown;
@@ -111,7 +122,7 @@ a:visited{
     text-align: left ;
     margin-top: -34vh;
     
-    font-size: 80%;
+    font-size: 2vw;
     
     
       
@@ -129,10 +140,35 @@ a:visited{
   }
 .ccc{
     position: absolute;
-    margin-left: 16vw;
+    margin-left: 30vw;
 }
 .drinks{
     width: 8vw;
     height: 12vh;
     margin-top: -22vh;
+}
+@media only screen and (max-width: 768px) and (max-width: 400px){
+    #place{
+        
+        
+
+
+    }
+    .vbn{
+
+        font-size: 2vw;
+    }
+    option{
+        width: 30%;
+        background-size:50%; 
+    
+      }
+      .ert{
+        font-size: small;
+        background-size: contain;
+      }
+
+   
+
+
 }
