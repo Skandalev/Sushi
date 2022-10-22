@@ -28,7 +28,7 @@ Appreciate constructive criticism.
 
  
 ## Demo version on netlify <a name="Demo"></a>
-[Portfolio](danlevsushi.netlify.app/)
+[Sushi](https://danlevsushi.netlify.app/)
 
 
 ## How to run? <a name="use"></a>
